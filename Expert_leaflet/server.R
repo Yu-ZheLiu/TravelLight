@@ -23,6 +23,7 @@ shinyServer(function(input, output, session) {
     which(stores$region == input$region)
   })
   
+  
   #' 縣市
   observeEvent(input$county, {
     Id1 = Showcounty()
